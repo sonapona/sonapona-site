@@ -1,0 +1,13 @@
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--rim);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 12px;
+
+    @include medium-float;
+
+    &--no-padding {
+        padding: 0;
+    }
+}

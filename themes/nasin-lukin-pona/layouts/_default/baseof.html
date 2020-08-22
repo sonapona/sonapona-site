@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        <div class="nlp-scrim" onclick="CloseDrawer()"></div>
+        <button class="nlp-drawer-button" onclick="OpenDrawer()" ></button>
+        <main class="nlp-paned">
+            <div class="nlp-paned__left">
+                {{- partial "sidebar.html" . -}}
+            </div>
+            <div class="nlp-paned__right">
+                {{- block "main" . }}{{- end }}
+            </div>
+        </main>
+        {{- partial "footer.html" . -}}
+    </body>
+</html>

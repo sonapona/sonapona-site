@@ -1,0 +1,20 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "kama sona"
+theme = "nasin-lukin-pona"
+
+[params]
+    description = "o kama sona e toki pona"
+
+DefaultContentLanguage = "en"
+
+[languages]
+    [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+
+    [languages.es]
+    contentDir = "content/es"
+    languageName = "Español"
+    weight = 2

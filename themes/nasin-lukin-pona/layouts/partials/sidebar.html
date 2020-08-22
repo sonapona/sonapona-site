@@ -1,0 +1,21 @@
+<h1>kama pona</h1>
+
+<br>
+
+jan ale o, kama pona!
+
+<br>
+<br>
+
+<h2>{{ T "lessons" }}</h2>
+
+<br>
+
+<div class="card card--no-padding">
+    {{ $section := where $.Site.RegularPages "Section" "lessons" }}
+    {{ range $item := $section }}
+    <a class="nlp-list__item" href="{{ $item.Permalink }}">
+        {{ $item.Title }}
+    </a>
+    {{ end }}
+</div>

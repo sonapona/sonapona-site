@@ -1,0 +1,16 @@
+table {
+    border-collapse: separate;
+    background-color: var(--card);
+    margin: 20px 0px;
+    border-radius: 4px;
+    border: 1px solid var(--rim);
+
+    td, th {
+        padding: 8px;
+    }
+    td {
+        border-top: 1px solid var(--rim);
+    }
+
+    @include medium-float;
+}
