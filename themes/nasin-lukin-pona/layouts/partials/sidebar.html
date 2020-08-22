@@ -1,15 +1,8 @@
 <h1>kama pona</h1>
 
-<br>
-
-jan ale o, kama pona!
-
-<br>
-<br>
+<p>jan ale o, kama pona!</p>
 
 <h2>{{ T "pages" }}</h2>
-
-<br>
 
 <div class="card card--no-padding">
     <a class="nlp-list__item" href="/">
@@ -17,14 +10,21 @@ jan ale o, kama pona!
     </a>
 </div>
 
-<br>
-
 <h2>{{ T "lessons" }}</h2>
 
-<br>
+<div class="card card--no-padding">
+    {{ $section := where $.Site.RegularPages.ByWeight "Section" "lessons" }}
+    {{ range $item := $section }}
+    <a class="nlp-list__item" href="{{ $item.Permalink }}">
+        {{ $item.Title }}
+    </a>
+    {{ end }}
+</div>
+
+<h2>{{ T "analyses" }}</h2>
 
 <div class="card card--no-padding">
-    {{ $section := where $.Site.RegularPages "Section" "lessons" }}
+    {{ $section := where $.Site.RegularPages.ByWeight "Section" "analyses" }}
     {{ range $item := $section }}
     <a class="nlp-list__item" href="{{ $item.Permalink }}">
         {{ $item.Title }}

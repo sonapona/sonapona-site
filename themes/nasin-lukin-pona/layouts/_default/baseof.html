@@ -14,7 +14,9 @@
                 {{- partial "sidebar.html" . -}}
             </div>
             <div class="nlp-paned__right">
-                {{- block "main" . }}{{- end }}
+                <div class="nlp-content">
+                    {{- block "main" . }}{{- end }}
+                </div>
             </div>
         </main>
         {{- partial "footer.html" . -}}

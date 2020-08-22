@@ -9,3 +9,6 @@ other = "homepage"
 
 [otherlanguages]
 other = "other languages"
+
+[analyses]
+other = "analyses"

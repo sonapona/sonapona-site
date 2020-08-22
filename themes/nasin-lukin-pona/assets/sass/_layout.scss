@@ -88,6 +88,15 @@ $content-el: 3;
     padding: 16px 14px;
 }
 
+blockquote {
+    border-left: 4px solid var(--rim);
+    padding-left: 16px;
+    margin: 20px 0px;
+    &, p {
+        color: var(--on-view-faint);
+    }
+}
+
 @media screen and (max-width: 799px) {
     .nlp-paned__left {
         display: none;
@@ -111,6 +120,9 @@ $content-el: 3;
 @media screen and (min-width: 800px) {
     .nlp-drawer-button, .nlp-scrim {
         display: none;
+    }
+    .nlp-content {
+        max-width: 40vw;
     }
     .nlp-paned__left {
         flex: 0 1 300px;
