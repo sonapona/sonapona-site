@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on kama sona</title>
+    <link>https://sonapona.github.io/sonapona-site/lessons/</link>
+    <description>Recent content in Lessons on kama sona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://sonapona.github.io/sonapona-site/lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lesson one: sounds</title>
+      <link>https://sonapona.github.io/sonapona-site/lessons/one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonapona.github.io/sonapona-site/lessons/one/</guid>
+      <description>toki pona has 14 letters, 9 consonants and 5 vowels.
+consonants    letter sound     k kill   l let   m met   n net   p pit   s sit   t tool   w wet   j yet    Notice that j is not prononuced like the letter J in english, but rather the letter Y.</description>
+    </item>
+    
+    <item>
+      <title>lesson two: toki!</title>
+      <link>https://sonapona.github.io/sonapona-site/lessons/two/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonapona.github.io/sonapona-site/lessons/two/</guid>
+      <description>vocabulary jan  human, person, someone    moku  eat, drink, consume, food, ingest    mi  I, me, myself, mine, my    pona  good, simple, fix, repair    sina  you, yours, you all, y&#39;all&#39;s    suli  big, tall, long, important     grammatical vocabulary li li is one of the most important words in toki pona.</description>
+    </item>
+    
+  </channel>
+</rss>

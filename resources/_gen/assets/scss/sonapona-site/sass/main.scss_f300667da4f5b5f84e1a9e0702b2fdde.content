@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-decoration-line: none; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+:root {
+  --chrome: #EFF0F1;
+  --on-chrome: #000000;
+  --view: #ffffff;
+  --on-view: #000000;
+  --card-bg: #ffffff;
+  --on-card: #000000;
+  --rim: rgba(0,0,0,0.1); }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --chrome: #121212;
+    --on-chrome: #ffffff;
+    --view: #000000;
+    --on-view: #ffffff;
+    --card-bg: #121212;
+    --on-card: #ffffff;
+    --rim: rgba(255,255,255,0.1); } }
+
+a {
+  color: var(--on-view); }
+
+* {
+  color: var(--on-view); }
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--rim);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108); }
+  .card--no-padding {
+    padding: 0; }
+
+* {
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal; }
+
+h1 {
+  font-size: 25pt;
+  line-height: 34px;
+  font-weight: 800;
+  width: 100%; }
+
+h2 {
+  font-size: 21pt;
+  line-height: 28px;
+  font-weight: bold; }
+
+h4 {
+  font-size: 18pt;
+  line-height: 20pt;
+  font-weight: 500; }
+
+p {
+  font-size: 16pt;
+  margin: 4pt 0pt; }
+
+table {
+  border-collapse: separate;
+  background-color: var(--card);
+  margin: 20px 0px;
+  border-radius: 4px;
+  border: 1px solid var(--rim);
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108); }
+  table td, table th {
+    padding: 8px; }
+  table td {
+    border-top: 1px solid var(--rim); }
+
+.nlp-paned {
+  display: flex;
+  justify-content: space-around;
+  min-height: 100vh; }
+
+.nlp-scrim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms cubic-bezier(0.8, 0, 0.2, 1);
+  z-index: 2; }
+  .nlp-scrim--open {
+    opacity: 1;
+    pointer-events: all;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll; }
+
+.nlp-scrim__padder {
+  min-height: 100vh; }
+
+.nlp-drawer-button {
+  position: fixed;
+  bottom: 16px;
+  left: 16px;
+  height: 48px;
+  width: 48px;
+  border-radius: 4px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--rim);
+  z-index: 1;
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108); }
+  .nlp-drawer-button:active {
+    filter: brightness(90%); }
+
+.nlp-paned__left {
+  background-color: var(--chrome);
+  padding: 32px 16px 16px; }
+
+.nlp-paned__right {
+  background-color: var(--view);
+  padding: 32px 16px; }
+
+.nlp-list__item {
+  display: block;
+  padding: 16px 14px; }
+
+@media screen and (max-width: 799px) {
+  .nlp-paned__left {
+    display: none;
+    transform: translateY(100%);
+    transition: transform 600ms cubic-bezier(0.8, 0, 0.2, 1);
+    z-index: 3; }
+    .nlp-paned__left--open {
+      border-radius: 24px 24px 0px 0px;
+      display: initial;
+      transform: none; }
+  .nlp-paned__right {
+    flex: 0 1 100%; } }
+
+@media screen and (min-width: 800px) {
+  .nlp-drawer-button, .nlp-scrim {
+    display: none; }
+  .nlp-paned__left {
+    flex: 0 1 300px;
+    min-height: 100%; }
+  .nlp-paned__right {
+    flex: 1 1 300px;
+    min-height: 100%; } }

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/lessons/one/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/analyses/terminology/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/analyses/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/lessons/two/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/analyses/maponian/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/analyses/mankanian/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/analyses/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sonapona.github.io/sonapona-site/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sonapona.github.io/sonapona-site/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sonapona.github.io/sonapona-site/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sonapona.github.io/sonapona-site/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/lessons/</loc>
+  </url>
+  
+  <url>
+    <loc>https://sonapona.github.io/sonapona-site/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://sonapona.github.io/sonapona-site/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://sonapona.github.io/sonapona-site/tags/"
+                />
+  </url>
+  
+</urlset>

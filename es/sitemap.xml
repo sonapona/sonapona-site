@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://sonapona.github.io/es/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sonapona.github.io/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://sonapona.github.io/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sonapona.github.io/es/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sonapona.github.io/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://sonapona.github.io/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sonapona.github.io/es/lessons/_one/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sonapona.github.io/lessons/_one/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://sonapona.github.io/es/lessons/_one/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sonapona.github.io/es/lessons/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sonapona.github.io/lessons/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://sonapona.github.io/es/lessons/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://sonapona.github.io/es/tags/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://sonapona.github.io/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://sonapona.github.io/es/tags/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Analyses on kama sona</title>
+    <link>https://sonapona.github.io/sonapona-site/analyses/</link>
+    <description>Recent content in Analyses on kama sona</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://sonapona.github.io/sonapona-site/analyses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>terminology</title>
+      <link>https://sonapona.github.io/sonapona-site/analyses/terminology/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonapona.github.io/sonapona-site/analyses/terminology/</guid>
+      <description>Vocabulary Alignment Punic Staying to the official pu material.
+Lapic Introducing new words for comedic purposes.
+Saweic Introducing new words for the purpose of introducing new words.
+Palic Introducing new words due to referring to the concepts frequently enough that conversation would be improved by having new words.
+Pinic Avoiding vocabulary from after pu.
+a alignment a-initial Preferring to put a at the start of phrases for emphasis:
+ a pona mute!</description>
+    </item>
+    
+    <item>
+      <title>dialect overview</title>
+      <link>https://sonapona.github.io/sonapona-site/analyses/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonapona.github.io/sonapona-site/analyses/overview/</guid>
+      <description>Pinian from pini + ian
+Catchall for pre-pu dialects of toki pona.
+Vikenian from vk + ian
+Dialect of toki pona characterised notably by:
+ Tendency to compound la instead of using multiple sentences Tendency to use a initially rather than finally  Punian from pu + ian
+Standard pu toki pona.
+Maponian from ma pona + ian
+Dialect of toki pona characterised by:
+ Tendency to use nimi sin, most common being:  tonsi (queer) linwuli (connection) epiku (epic)   Standardised grammar that&amp;rsquo;s somewhat consistent among members Fast adoption of sona nasa deemed pona  Mankanian from manka + ian</description>
+    </item>
+    
+    <item>
+      <title>maponian dialect</title>
+      <link>https://sonapona.github.io/sonapona-site/analyses/maponian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonapona.github.io/sonapona-site/analyses/maponian/</guid>
+      <description>Information    metric info     Speaker Count ~1k   Vocabulary Alignment Lapic-Palic   Commonly Found In Discord   A-Alignment A-Final   Complexity Alignment Pelac    Overview Maponian is one of the larger dialects of toki pona. Maponian is largely characterised by two things:
+  Maponian is mostly taught through #pana-sona by a somewhat homogeneous speaker base that generally doesn&amp;rsquo;t have conflicts when trying to communicate through toki pona, resulting in a fairly standardised dialect of toki pona that incubates new speakers fast.</description>
+    </item>
+    
+    <item>
+      <title>mankanian dialect</title>
+      <link>https://sonapona.github.io/sonapona-site/analyses/mankanian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://sonapona.github.io/sonapona-site/analyses/mankanian/</guid>
+      <description>Information    metric info     Speaker Count ~100   Vocabulary Alignment Palic   Commonly Found In Minecraft   A-Alignment A-Final   Complexity Alignment Pelac    Notable Non-pu Vocabulary ewe stone, gravel, rock, pebble, lava, magma
+When ewe is used, kiwen is reduced to usage for only metal.
+Shared Meanings This is not a dictionary, only analysing commonly shared concepts a Mankanian speaker is likely to recognise as a primary meaning of a phrase.</description>
+    </item>
+    
+  </channel>
+</rss>
