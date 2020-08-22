@@ -1,4 +1,4 @@
-baseURL = "http://sonapona.github.io/"
+baseURL = "http://sonapona.github.io/sonapona-site"
 languageCode = "en-us"
 title = "kama sona"
 theme = "nasin-lukin-pona"
