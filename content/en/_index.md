@@ -2,4 +2,6 @@
 title: "kama sona"
 ---
 
-jan ale o kama pona!
+# o kama pona!
+
+welcome to this site. this site is dedicated to toki pona content.
