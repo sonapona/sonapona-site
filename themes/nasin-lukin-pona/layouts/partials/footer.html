@@ -1,8 +1,15 @@
 {{ if .IsTranslated }}
 <hr class="footer-line">
-<div class="language-footer">
+<div class="nlp-footer">
+    <h4>{{ T "otherlanguages" }}</h4>
+    <br>
     {{ range .Translations }}
-    <a href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}</a>
+    <a class="nlp-chip" href="{{ .Permalink }}">{{ .Lang }}: {{ .Title }}</a>
     {{ end }}
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
 {{ end }}

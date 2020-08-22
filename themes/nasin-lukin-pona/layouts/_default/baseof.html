@@ -6,7 +6,9 @@
         <div class="nlp-scrim" onclick="CloseDrawer()">
             <div class="nlp-scrim__padder"></div>
         </div>
-        <button class="nlp-drawer-button" onclick="OpenDrawer()" ></button>
+        <button class="nlp-drawer-button" onclick="OpenDrawer()" >
+            <i class="material-icons">menu</i>
+        </button>
         <main class="nlp-paned">
             <div class="nlp-paned__left">
                 {{- partial "sidebar.html" . -}}

@@ -2,6 +2,7 @@ baseURL = "https://sonapona.github.io/sonapona-site"
 languageCode = "en-us"
 title = "kama sona"
 theme = "nasin-lukin-pona"
+canonifyURLs = "true"
 
 [params]
     description = "o kama sona e toki pona"

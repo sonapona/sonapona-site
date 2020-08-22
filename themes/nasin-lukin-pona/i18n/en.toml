@@ -1,2 +1,11 @@
 [lessons]
 other = "lessons"
+
+[pages]
+other = "pages"
+
+[homepage]
+other = "homepage"
+
+[otherlanguages]
+other = "other languages"

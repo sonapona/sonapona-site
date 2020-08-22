@@ -48,6 +48,9 @@ $content-el: 3;
     background-color: var(--card-bg);
     border: 1px solid var(--rim);
 
+    display: grid;
+    place-items: center;
+
     z-index: $button-el;
 
     &:active {
@@ -55,6 +58,19 @@ $content-el: 3;
     }
 
     @include medium-float;
+}
+
+.footer-line {
+    background-color: var(--chrome);
+    border-top: 1px solid var(--rim);
+    border-bottom: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.nlp-footer {
+    background-color: var(--chrome);
+    padding-left: 10vw;
 }
 
 .nlp-paned__left {
