@@ -3,7 +3,9 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div class="nlp-scrim" onclick="CloseDrawer()"></div>
+        <div class="nlp-scrim" onclick="CloseDrawer()">
+            <div class="nlp-scrim__padder"></div>
+        </div>
         <button class="nlp-drawer-button" onclick="OpenDrawer()" ></button>
         <main class="nlp-paned">
             <div class="nlp-paned__left">
