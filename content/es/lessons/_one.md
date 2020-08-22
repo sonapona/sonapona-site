@@ -1,3 +1,0 @@
----
-title: "lección uno: toki!"
----
