@@ -12,3 +12,9 @@ other = "other languages"
 
 [analyses]
 other = "analyses"
+
+[previous]
+other = "previous:"
+
+[next]
+other = "next:"
