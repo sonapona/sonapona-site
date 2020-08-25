@@ -4,8 +4,13 @@
     box-sizing: border-box;
     border-radius: 4px;
     padding: 12px;
+    display: block;
 
     @include medium-float;
+
+    &--wide {
+        width: 100%;
+    }
 
     &--no-padding {
         padding: 0;

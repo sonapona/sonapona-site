@@ -1,4 +1,28 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
+
+{{ if or (.NextInSection) (.PrevInSection) }}
+
+    <div class="nlp-nav-footer">
+        {{ if .NextInSection }}
+        <a class="card" href="{{ .NextInSection.Permalink }}">
+            {{ T "previous" }}
+            {{ .NextInSection.Title | truncate 50 "..."}}
+        </a>
+        {{ else }}
+        <div class="card card--waster"></div>
+        {{ end }}
+        {{ if .PrevInSection }}
+        <a class="card" href="{{ .PrevInSection.Permalink }}">
+            {{ T "next" }}
+            {{ .PrevInSection.Title | truncate 50 "..." }}
+        </a>
+        {{ else }}
+        <div class="card card--waster"></div>
+        {{ end }}
+    </div>
+
+{{ end }}
+
 {{ end }}
