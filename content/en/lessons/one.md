@@ -31,7 +31,7 @@ Notice that j is not prononuced like the letter J in english, but rather the let
 | o | m**o**re |
 | u | p**oo** |
 
-That's all the sounds in toki pona! writing them is very simple: you never use consonants,
+That's all the sounds in toki pona! writing them is very simple: you never use capital letters,
 with one exception: writing unofficial words.
 
 ## unofficial words
